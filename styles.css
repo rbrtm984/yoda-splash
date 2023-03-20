@@ -11,7 +11,6 @@ body {
     display: flex;
     flex-direction: column;
     background: #1F2937
-
 }
 
 .headerUpper {
@@ -23,11 +22,13 @@ body {
     align-self: center;
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 16px;
 }
 
 .navLinks {
     display: flex;
     list-style-type: none;
+    color: ;
 }
 
 .navLink {
@@ -36,5 +37,38 @@ body {
 
 .navLink a {
     text-decoration: none;
-    color: black;
+    color: #F9FAF8;
+}
+
+.headerLower {
+    display: flex;
+    padding: 24px;
+}
+
+.mainTitle {
+    width: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: #F9FAF8;
+    justify-content: flex-start:
+}
+
+.titleSignUp {
+    align-self: flex-start;
+}
+
+img {
+    width: 40%;
+    margin-right: 10%
+}
+
+.cards {
+    display: flex;
+}
+.card {
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
 }
