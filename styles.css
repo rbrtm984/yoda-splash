@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font: 
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -28,7 +28,8 @@ body {
 .navLinks {
     display: flex;
     list-style-type: none;
-    color: ;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .navLink {
@@ -42,17 +43,64 @@ body {
 
 .headerLower {
     display: flex;
-    padding: 24px;
+    padding: 64px;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 }
 
 .mainTitle {
-    width: 40%;
-    margin-left: 10%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     color: #F9FAF8;
-    justify-content: flex-start:
+    margin: 24px;
+}
+
+.mainTitle h1 {
+    font-size: 48px;
+    margin: 24px;
+}
+
+.mainTitle p {
+    margin: 24px;
+}
+
+.mainTitle button {
+    margin: 24px;
+    display: flex;
+    flex-grow: 0;
+    align-self: flex-start;
+    background-color: #3882F6;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    color: #0d172a;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 1rem 1.6rem;
+    text-align: flex-start;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
 }
 
 .titleSignUp {
@@ -60,8 +108,8 @@ body {
 }
 
 img {
-    width: 40%;
-    margin-right: 10%
+    width: 50%;
+    flex-grow: 2;
 }
 
 .cards {
