@@ -101,7 +101,7 @@ body {
     padding: 1rem 2rem;
   }
 }
-}
+
 
 .titleSignUp {
     align-self: flex-start;
@@ -112,11 +112,104 @@ img {
     flex-grow: 2;
 }
 
+.body {
+    flex-grow: 1;
+}
+.body h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937;
+}
+
 .cards {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 64px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .card {
-    width: 25%;
-    height: 100%;
-    border: 1px solid black;
+    margin: 16px;
+    border: 3px solid #3882f6;
+    padding: 96px;
+    border-radius: 5%;
+}
+
+.quoteContainer {
+    background-color: #E5E7EB;
+    padding: 64px 32px 64px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+.quoteAuthor {
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: bold;
+    margin-left: 300px;
+}
+
+.callToAction {
+    background-color:#3882F6;
+    margin: 64px;
+    display: flex;
+    color: #e2e8f0;
+    justify-content: center;
+    gap: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-radius: 5%;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.theCall {
+    font-size: 16px;
+    font-weight: 700;
+    color:#F9FAF8;
+}
+
+.theCallSubtext {
+    font-size: 14px;
+    font-weight: 300;
+    color: #F9FAF8;
+}
+
+.callToAction button {
+    background-color:#3882F6;
+    border: 2px solid white;
+    border-radius: 10%;
+    color:#F9FAF8;
+    padding: 8px 24px 8px 24px;
+    font-weight:700;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 64px;
+    display: flex;
+    color:#F9FAF8;
+    justify-content: center;
+    align-items: center;
 }
