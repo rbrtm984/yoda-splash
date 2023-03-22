@@ -10,7 +10,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    background: #566246;
+    background: #556650;
 }
 
 .headerUpper {
@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    color: #F9FAF8;
+    color: #FEFAE0;
     margin: 24px;
 }
 
@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-grow: 0;
     align-self: flex-start;
-    background-color: #D8DAD3;
+    background-color: #FEFAE0;
     border: 0 solid #e2e8f0;
     border-radius: 1.5rem;
     color: #151514;
@@ -115,6 +115,7 @@ img {
 
 .body {
     flex-grow: 1;
+    background-color: #2D2616;
 }
 .body h2 {
     display: flex;
@@ -122,7 +123,7 @@ img {
     align-items: center;
     font-size: 36px;
     font-style: extra-bold;
-    color: #1F2937;
+    color: #FEFAE0;
 }
 
 .cards {
@@ -135,14 +136,24 @@ img {
 .cardContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;;
     align-items: center;
+    color: #FEFAE0;
 }
 .card {
     margin: 16px;
-    border: 3px solid #3882f6;
-    padding: 96px;
+    border: 3px solid #FEFAE0;
+    display: flex;
+    justify-content: center;
     border-radius: 5%;
+    width: 250px;
+    height: 250px;
+
+}
+
+img {
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .quoteContainer {
@@ -170,44 +181,47 @@ img {
 
 .callToAction {
     background-color:#D8DAD3;
-    margin: 64px;
     display: flex;
     color: #e2e8f0;
     justify-content: center;
     gap: 64px;
     padding-top: 64px;
     padding-bottom: 64px;
-    border-radius: 5%;
 }
 
 .textContainer {
     display: flex;
     flex-direction: column;
+    background-color: #FEFAE0;
+    padding: 64px;
+    border-radius: 10px;
 }
 
 .theCall {
     font-size: 16px;
     font-weight: 700;
-    color:#F9FAF8;
+    color:#2D2616;
 }
 
 .theCallSubtext {
     font-size: 14px;
     font-weight: 300;
-    color: #F9FAF8;
+    color: #2D2616;
 }
 
 .callToAction button {
-    background-color:#3882F6;
-    border: 2px solid white;
-    border-radius: 10%;
-    color:#F9FAF8;
+    background-color:#58584B;
+    border: 2px solid #FEFAE0;
+    border-radius: 10px;
+    color:#FEFAE0;
     padding: 8px 24px 8px 24px;
     font-weight:700;
+    align-self: center;
+    font-size: 16px;
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #1C1E17;
     padding: 64px;
     display: flex;
     color:#F9FAF8;
