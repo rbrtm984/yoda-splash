@@ -10,7 +10,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    background: #1F2937
+    background: #566246;
 }
 
 .headerUpper {
@@ -21,8 +21,8 @@ body {
     flex-grow: 1;
     align-self: center;
     font-size: 24px;
-    color: #F9FAF8;
-    margin-left: 16px;
+    color: #FEFAE0;
+    margin-left: 32px;
 }
 
 .navLinks {
@@ -30,6 +30,7 @@ body {
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
+    margin-right: 32px;
 }
 
 .navLink {
@@ -38,7 +39,7 @@ body {
 
 .navLink a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #FEFAE0;
 }
 
 .headerLower {
@@ -72,13 +73,13 @@ body {
     display: flex;
     flex-grow: 0;
     align-self: flex-start;
-    background-color: #3882F6;
+    background-color: #D8DAD3;
     border: 0 solid #e2e8f0;
     border-radius: 1.5rem;
-    color: #0d172a;
+    color: #151514;
     cursor: pointer;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 1rem 1.6rem;
     text-align: flex-start;
     text-decoration: none #0d172a solid;
@@ -168,7 +169,7 @@ img {
 }
 
 .callToAction {
-    background-color:#3882F6;
+    background-color:#D8DAD3;
     margin: 64px;
     display: flex;
     color: #e2e8f0;
